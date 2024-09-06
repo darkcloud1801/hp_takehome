@@ -1,0 +1,43 @@
+[
+    {
+        "model": "accounts.CustomUser",
+        "pk": 1,
+        "fields": {
+            "username": "rubindamian-staff",
+            "password": "password1234!",
+            "is_staff": true,
+            "is_active": true
+        }
+    },
+    {
+        "model": "accounts.CustomUser",
+        "pk": 2,
+        "fields": {
+            "username": "regular-schmo",
+            "password": "password1234!",
+            "is_staff": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "accounts.CustomUser",
+        "pk": 3,
+        "fields": {
+            "username": "second-schmo",
+            "password": "password",
+            "is_staff": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "accounts.CustomUser",
+        "pk": 4,
+        "fields": {
+            "username": "logan-skeleton",
+            "password": "brutal-fight-scene",
+            "is_staff": false,
+            "is_active": false,
+            "soft_deleted": true
+        }
+    }
+]
