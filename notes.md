@@ -7,6 +7,8 @@
 
 ### Deliverables
 From withing the venv:
+* Execute `python manage.py migrate` to create the tables in sql lite
+* Execute `python manage.py createsuperuser` to create at least 1 user
 * Execute `python manage.py runserver` to start a new server on 8000
 * Execute `python manage.py test` to run tests.
 
